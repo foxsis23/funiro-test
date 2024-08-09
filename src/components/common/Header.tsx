@@ -12,7 +12,7 @@ import {Heart, Search, ShoppingCart} from "lucide-react";
 import {Avatar, AvatarImage} from "@/components/ui/avatar";
 
 const Header = () => (
-    <div className="fixed z-10 flex flex-row justify-between px-20 py-10 top-0 w-full items-center">
+    <div className="md:fixed hidden z-10 md:flex flex-row justify-between px-20 py-10 top-0 w-full items-center">
         <div className="flex flex-row gap-10 items-center">
             <p className="text-2xl font-bold">Funiro.</p>
             <div className="flex flex-row gap-5 items-center">

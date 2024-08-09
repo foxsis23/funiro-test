@@ -61,13 +61,13 @@ export default function Home() {
       <>
           <div className="flex flex-row w-full bg-[#F9F1E7] relative">
               <div className="mt-36 mx-auto">
-                  <Carousel className="w-[1000px]" opts={{loop: true}}>
+                  <Carousel className="md:w-[1000px] w-[300px]" opts={{loop: true}}>
                       <CarouselContent>
-                          <CarouselItem className="w-[600px] relative">
-                              <img className="h-[500px] w-[900px]"
+                          <CarouselItem className="md:w-[600px] w-[300px] relative">
+                              <img className="h-[500px] md:w-[900px]"
                                    src="https://s3-alpha-sig.figma.com/img/49fc/0429/c4613af2a4e6c1b94a0bdbbb862009b2?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jKh2S1S8fx7~5odGBZjCbzSl1wcS8IFMEU5mVZdb~3ZMUf-ndNXBVJMGRP2B-~sZvhAIn5YIwkT7PaLJx18ox9ggf364zbKgzOHgjTzZ8NYG6w-~qwjDosTkWgJ2j~GRBeeQ48ygOzRECbZnAnDaF1etsfTtWY~w86qQ8uRj6fXR8C2IJKiLULh4F9p6c5qjfeMK8zmOnoQzZz9Pti9caWslzVjK-5hNEMaDklr2luQpPdJTOo6HmsAG1GQ8AbX2ZUEcN-8JYsLsPMysweHKqDJDnjiZ6bTVOuyLs2nTc8CAClCTiuLA6ie5j-PzWmpDP21BPSsXtTg2UA-wB4a2iA__"
                                    alt=""/>
-                              <div className="absolute p-4 bottom-5 left-[700px] backdrop-blur-xl">
+                              <div className="absolute p-4 bottom-5 md:left-[700px] left-[100px] backdrop-blur-xl">
                                   <p className="text-xl font-bold">Bohauss</p>
                                   <p className="text-sm text-slate-200">Luxury big sofa 2-seat</p>
                                   <div className="flex flex-row justify-between items-center">
@@ -76,11 +76,11 @@ export default function Home() {
                                   </div>
                               </div>
                           </CarouselItem>
-                          <CarouselItem className="w-[600px] relative">
-                              <img className="h-[500px] w-[900px]"
-                                   src="https://s3-alpha-sig.figma.com/img/0377/3802/157dc756f64c0f2e4e93d6fea0c7c23b?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oRaPFluUpM9AimQJ72U72jCs16WQp-HMWSHODLq-kJkiyHFlBKnqc-NXvZT3aMHqWLrCCnSVXj5O2WOn4FXuVWiUnXdirxHMCEgS63XjpSNLKHjDDS0u4B3l5QXnHq0bePzZoh0JZsQznWSqHrpvAU1~SZwBh3~3MZVqdGjYT7xcaZnU5hvLzgp8FzN~5AVx-bhorZRmfwo0lk~qtnKzDs8RQ1N1P9Ls~NO3X9DgZw-4RlcbSZfq~Ucup7uw4ISQFwkB2sq2hTqkUxhiw24D~MzRDH8~REw0huvM6wNrdKzPTHyrHs0jFyA5vF0f0uGGESXbpJ6GnK87kSA1TWBMKA__"
+                          <CarouselItem className="md:w-[600px] w-[300px] relative">
+                              <img className="h-[500px] md:w-[900px]"
+                                   src="https://s3-alpha-sig.figma.com/img/49fc/0429/c4613af2a4e6c1b94a0bdbbb862009b2?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jKh2S1S8fx7~5odGBZjCbzSl1wcS8IFMEU5mVZdb~3ZMUf-ndNXBVJMGRP2B-~sZvhAIn5YIwkT7PaLJx18ox9ggf364zbKgzOHgjTzZ8NYG6w-~qwjDosTkWgJ2j~GRBeeQ48ygOzRECbZnAnDaF1etsfTtWY~w86qQ8uRj6fXR8C2IJKiLULh4F9p6c5qjfeMK8zmOnoQzZz9Pti9caWslzVjK-5hNEMaDklr2luQpPdJTOo6HmsAG1GQ8AbX2ZUEcN-8JYsLsPMysweHKqDJDnjiZ6bTVOuyLs2nTc8CAClCTiuLA6ie5j-PzWmpDP21BPSsXtTg2UA-wB4a2iA__"
                                    alt=""/>
-                              <div className="absolute p-4 bottom-5 left-[700px] backdrop-blur-xl">
+                              <div className="absolute p-4 bottom-5 md:left-[700px] left-[100px] backdrop-blur-xl">
                                   <p className="text-xl font-bold">Bohauss</p>
                                   <p className="text-sm text-slate-200">Luxury big sofa 2-seat</p>
                                   <div className="flex flex-row justify-between items-center">
@@ -89,11 +89,11 @@ export default function Home() {
                                   </div>
                               </div>
                           </CarouselItem>
-                          <CarouselItem className="w-[600px] relative">
-                              <img className="h-[500px] w-[900px]"
-                                   src="https://s3-alpha-sig.figma.com/img/9c37/2fe8/965eb67a69b0e20edcbe632460a2627c?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dMQnpCZ8gmTHzznFBFvFzjsBRJBTn9cDpgPbKV~11o5HIIn6SBeZuKJ3u31iTQI7XF7rtGJrew6xiGI9aX4kafLLMhD5iyGdCzqRLsAE1vFZ8gcwDZI7uFrALX0hv2PR4d6fqqjPvEXpc7z0JoMOgkwMEJZ57kO4IB4JlSFSqnTkctSGgr2W4WERlI0iLZr4mIerIuq67rbpPcchz0ahXfVzmiSGp6dhfpZZYwKGRCF77phMJVq~h~8z03~NgprV~k6ZYPzUBOoH88XGY4rxvRSVUIye4nND4kUZ30q41tjB99DgIA904ViXtvlz~T-IdiWxWtt3H1dMmwAu0DM5Tw__"
+                          <CarouselItem className="md:w-[600px] w-[300px] relative">
+                              <img className="h-[500px] md:w-[900px]"
+                                   src="https://s3-alpha-sig.figma.com/img/49fc/0429/c4613af2a4e6c1b94a0bdbbb862009b2?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jKh2S1S8fx7~5odGBZjCbzSl1wcS8IFMEU5mVZdb~3ZMUf-ndNXBVJMGRP2B-~sZvhAIn5YIwkT7PaLJx18ox9ggf364zbKgzOHgjTzZ8NYG6w-~qwjDosTkWgJ2j~GRBeeQ48ygOzRECbZnAnDaF1etsfTtWY~w86qQ8uRj6fXR8C2IJKiLULh4F9p6c5qjfeMK8zmOnoQzZz9Pti9caWslzVjK-5hNEMaDklr2luQpPdJTOo6HmsAG1GQ8AbX2ZUEcN-8JYsLsPMysweHKqDJDnjiZ6bTVOuyLs2nTc8CAClCTiuLA6ie5j-PzWmpDP21BPSsXtTg2UA-wB4a2iA__"
                                    alt=""/>
-                              <div className="absolute p-4 bottom-5 left-[700px] backdrop-blur-xl">
+                              <div className="absolute p-4 bottom-5 md:left-[700px] left-[100px] backdrop-blur-xl">
                                   <p className="text-xl font-bold">Bohauss</p>
                                   <p className="text-sm text-slate-200">Luxury big sofa 2-seat</p>
                                   <div className="flex flex-row justify-between items-center">
@@ -103,7 +103,7 @@ export default function Home() {
                               </div>
                           </CarouselItem>
                       </CarouselContent>
-                      <div className="absolute top-[-30px] left-[1000px] z-10">
+                      <div className="absolute top-[-30px] md:left-[1000px] left-[150px] z-10">
                           <CarouselPrevious
                               className="bg-[#E89F71] text-white hover:bg-orange-300 hover:text-white w-10 h-10"/>
                           <CarouselNext
@@ -111,20 +111,20 @@ export default function Home() {
                       </div>
 
                   </Carousel>
-                  <div className="absolute p-10 bg-white max-w-[350px] flex flex-col gap-4 bottom-16 left-16 h-auto">
-                      <p className="text-3xl font-bold">High-Quality
+                  <div className="absolute p-10 bg-white md:max-w-[350px] w-[250px] flex flex-col gap-4 md:bottom-16 md:left-16 left-4 bottom-40 h-auto">
+                      <p className="md:text-3xl font-bold text-sm">High-Quality
                           Furniture Just
                           For You</p>
-                      <p className="text-slate-400 text-md">Our furniture is made from selected and best quality
+                      <p className="text-slate-400 md:text-md text-xs">Our furniture is made from selected and best quality
                           materials that are suitable for your dream home</p>
-                      <button className="bg-orange-300 p-6 text-white">
+                      <button className="bg-orange-300 md:p-6 p-2 text-white hover:bg-orange-400">
                           Shop now
                       </button>
                   </div>
               </div>
           </div>
           <div className="flex flex-row items-center gap-24 justify-center mt-20 md:flex-nowrap flex-wrap">
-              <div className="flex flex-row gap-4 items-center">
+              <div className="flex flex-row gap-4 justify-center items-center">
                   <Trophy className="w-10 h-10"/>
                   <div className="flex flex-col gap-2">
                       <p className="font-medium text-md">High Quality</p>
@@ -168,7 +168,7 @@ export default function Home() {
               </button>
           </div>
 
-          <div className="bg-[#FCF8F3] p-10 justify-center items-center flex flex-row mt-10 gap-20">
+          <div className="bg-[#FCF8F3] p-10 justify-center items-center flex md:flex-row flex-col mt-10 gap-20">
               <div className="max-w-[300px] flex flex-col gap-4">
                   <p className="font-bold text-3xl">50+ Beautiful rooms
                       inspiration</p>
@@ -179,13 +179,13 @@ export default function Home() {
                       more
                   </button>
               </div>
-              <Carousel className="w-[600px]" opts={{loop: true}}>
+              <Carousel className="md:w-[600px] w-[300px]" opts={{loop: true}}>
                   <CarouselContent>
-                      <CarouselItem className="w-[600px] relative">
-                          <img className="h-[500px] w-[900px]"
+                      <CarouselItem className="md:w-[600px] w-[300px] relative">
+                          <img className="md:h-[500px] h-[300px] w-[900px]"
                                src="https://s3-alpha-sig.figma.com/img/49fc/0429/c4613af2a4e6c1b94a0bdbbb862009b2?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jKh2S1S8fx7~5odGBZjCbzSl1wcS8IFMEU5mVZdb~3ZMUf-ndNXBVJMGRP2B-~sZvhAIn5YIwkT7PaLJx18ox9ggf364zbKgzOHgjTzZ8NYG6w-~qwjDosTkWgJ2j~GRBeeQ48ygOzRECbZnAnDaF1etsfTtWY~w86qQ8uRj6fXR8C2IJKiLULh4F9p6c5qjfeMK8zmOnoQzZz9Pti9caWslzVjK-5hNEMaDklr2luQpPdJTOo6HmsAG1GQ8AbX2ZUEcN-8JYsLsPMysweHKqDJDnjiZ6bTVOuyLs2nTc8CAClCTiuLA6ie5j-PzWmpDP21BPSsXtTg2UA-wB4a2iA__"
                                alt=""/>
-                          <div className="flex flex-col gap-3 absolute p-10 bottom-5 left-[50px] backdrop-blur-xl">
+                          <div className="flex flex-col gap-3 absolute p-10 md:bottom-5 bottom-0 left-[50px] backdrop-blur-xl">
                               <p className="text-sm">01 -- Bedroom</p>
                               <p className="text-2xl font-bold">Inner Peace</p>
                               <button className="bg-orange-300 p-2 w-8 hover:bg-orange-400 transition-all ease-in">
@@ -193,11 +193,11 @@ export default function Home() {
                               </button>
                           </div>
                       </CarouselItem>
-                      <CarouselItem className="w-[600px] relative">
-                          <img className="h-[500px] w-[900px]"
-                               src="https://s3-alpha-sig.figma.com/img/0377/3802/157dc756f64c0f2e4e93d6fea0c7c23b?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oRaPFluUpM9AimQJ72U72jCs16WQp-HMWSHODLq-kJkiyHFlBKnqc-NXvZT3aMHqWLrCCnSVXj5O2WOn4FXuVWiUnXdirxHMCEgS63XjpSNLKHjDDS0u4B3l5QXnHq0bePzZoh0JZsQznWSqHrpvAU1~SZwBh3~3MZVqdGjYT7xcaZnU5hvLzgp8FzN~5AVx-bhorZRmfwo0lk~qtnKzDs8RQ1N1P9Ls~NO3X9DgZw-4RlcbSZfq~Ucup7uw4ISQFwkB2sq2hTqkUxhiw24D~MzRDH8~REw0huvM6wNrdKzPTHyrHs0jFyA5vF0f0uGGESXbpJ6GnK87kSA1TWBMKA__"
+                      <CarouselItem className="md:w-[600px] w-[300px] relative">
+                          <img className="md:h-[500px] h-[300px] w-[900px]"
+                               src="https://s3-alpha-sig.figma.com/img/49fc/0429/c4613af2a4e6c1b94a0bdbbb862009b2?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jKh2S1S8fx7~5odGBZjCbzSl1wcS8IFMEU5mVZdb~3ZMUf-ndNXBVJMGRP2B-~sZvhAIn5YIwkT7PaLJx18ox9ggf364zbKgzOHgjTzZ8NYG6w-~qwjDosTkWgJ2j~GRBeeQ48ygOzRECbZnAnDaF1etsfTtWY~w86qQ8uRj6fXR8C2IJKiLULh4F9p6c5qjfeMK8zmOnoQzZz9Pti9caWslzVjK-5hNEMaDklr2luQpPdJTOo6HmsAG1GQ8AbX2ZUEcN-8JYsLsPMysweHKqDJDnjiZ6bTVOuyLs2nTc8CAClCTiuLA6ie5j-PzWmpDP21BPSsXtTg2UA-wB4a2iA__"
                                alt=""/>
-                          <div className="flex flex-col gap-3 absolute p-10 bottom-5 left-[50px] backdrop-blur-xl">
+                          <div className="flex flex-col gap-3 absolute p-10 md:bottom-5 bottom-0 left-[50px] backdrop-blur-xl">
                               <p className="text-sm">01 -- Bedroom</p>
                               <p className="text-2xl font-bold">Inner Peace</p>
                               <button className="bg-orange-300 p-2 w-8 hover:bg-orange-400 transition-all ease-in">
@@ -205,11 +205,11 @@ export default function Home() {
                               </button>
                           </div>
                       </CarouselItem>
-                      <CarouselItem className="w-[600px] relative">
-                          <img className="h-[500px] w-[900px]"
-                               src="https://s3-alpha-sig.figma.com/img/9c37/2fe8/965eb67a69b0e20edcbe632460a2627c?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dMQnpCZ8gmTHzznFBFvFzjsBRJBTn9cDpgPbKV~11o5HIIn6SBeZuKJ3u31iTQI7XF7rtGJrew6xiGI9aX4kafLLMhD5iyGdCzqRLsAE1vFZ8gcwDZI7uFrALX0hv2PR4d6fqqjPvEXpc7z0JoMOgkwMEJZ57kO4IB4JlSFSqnTkctSGgr2W4WERlI0iLZr4mIerIuq67rbpPcchz0ahXfVzmiSGp6dhfpZZYwKGRCF77phMJVq~h~8z03~NgprV~k6ZYPzUBOoH88XGY4rxvRSVUIye4nND4kUZ30q41tjB99DgIA904ViXtvlz~T-IdiWxWtt3H1dMmwAu0DM5Tw__"
+                      <CarouselItem className="md:w-[600px] w-[300px] relative">
+                          <img className="md:h-[500px] h-[300px] w-[900px]"
+                               src="https://s3-alpha-sig.figma.com/img/49fc/0429/c4613af2a4e6c1b94a0bdbbb862009b2?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jKh2S1S8fx7~5odGBZjCbzSl1wcS8IFMEU5mVZdb~3ZMUf-ndNXBVJMGRP2B-~sZvhAIn5YIwkT7PaLJx18ox9ggf364zbKgzOHgjTzZ8NYG6w-~qwjDosTkWgJ2j~GRBeeQ48ygOzRECbZnAnDaF1etsfTtWY~w86qQ8uRj6fXR8C2IJKiLULh4F9p6c5qjfeMK8zmOnoQzZz9Pti9caWslzVjK-5hNEMaDklr2luQpPdJTOo6HmsAG1GQ8AbX2ZUEcN-8JYsLsPMysweHKqDJDnjiZ6bTVOuyLs2nTc8CAClCTiuLA6ie5j-PzWmpDP21BPSsXtTg2UA-wB4a2iA__"
                                alt=""/>
-                          <div className="flex flex-col gap-3 absolute p-10 bottom-5 left-[50px] backdrop-blur-xl">
+                          <div className="flex flex-col gap-3 absolute p-10 md:bottom-5 bottom-0 left-[50px] backdrop-blur-xl">
                               <p className="text-sm">01 -- Bedroom</p>
                               <p className="text-2xl font-bold">Inner Peace</p>
                               <button className="bg-orange-300 p-2 w-8 hover:bg-orange-400 transition-all ease-in">
@@ -227,20 +227,20 @@ export default function Home() {
 
           <p className="text-3xl font-bold mt-20 mb-8 text-center">Tips & tricks</p>
 
-          <Carousel className="w-full max-w-3xl m-auto" opts={{loop: true}}>
+          <Carousel className="w-full md:max-w-3xl max-w-[360px] m-auto" opts={{loop: true}}>
               <CarouselContent className="-ml-1">
                   {Array.from({length: 5}).map((_, index) => (
-                      <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
-                          <div className="p-1">
+                      <CarouselItem key={index} className="md:pl-1 md:basis-1/2 basis-[40%]">
+                          <div className="md:p-1">
                               <div
-                                  className="flex flex-col max-w-[400px] gap-4 shadow-sm hover:shadow-xl transition-all ease-in">
+                                  className="flex flex-col md:max-w-[400px] max-w-[300px] gap-4 shadow-sm hover:shadow-xl transition-all ease-in">
                                   <img
                                       src="https://s3-alpha-sig.figma.com/img/53ab/ba51/c795f73b89eadbfba6f49c31e29633ca?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZilvLzSXnLipnWdfV~rmpgm-EPnurNjgSY6QI4AM7Q3gOT3BI9EvpQhBVcM7CPlcSk21xDK~~A7WbVp1pAsUu-UcbvufPv-SCKK2SM3kTun52iT0uSpDA1aKzq0L62mg3W4GvakThZOoexcKef1Y0xAdIKOb0~Yn2yg88C38S~hqKFWGAXK06dHxlLI9H5WALkUv~-niJzmnKxOLlI7qTr~JnmpQjA6W2hhI~CzoTLlAxo9m0Gdbv3fyUbFaDfqUL0W1nyGE2vyMpZWsBuYQAppQ08ZuDjk1gQaM-xYoIlulloEZC9-TWE9k~fhtcUhN1Gj0i6JWCIJKXaOh~jCNsQ__"
-                                      alt="img" className="w-[400px]"/>
+                                      alt="img" className="md:w-[400px] w-[300px]"/>
                                   <div className="flex flex-col gap-2 p-4">
-                                      <p className="text-xl font-bold">How to create a living
+                                      <p className="md:text-xl font-bold text-sm">How to create a living
                                           room to love</p>
-                                      <p className="text-sm text-slate-500">20 jan 2020</p>
+                                      <p className="md:text-sm text-xs text-slate-500">20 jan 2020</p>
                                   </div>
 
                               </div>
@@ -253,9 +253,9 @@ export default function Home() {
               <CarouselNext
                   className="bg-[#E89F71] text-white hover:bg-orange-300 hover:text-white w-10 h-10"/>
           </Carousel>
-          <p className="text-md text-center text-slate-500 mt-10">Share your setup with</p>
-          <p className="text-3xl font-bold text-center">#FuniroFurniture</p>
-          <div className="flex flex-row gap-4 mb-10">
+          <p className="text-md text-center text-slate-500 mt-10 hidden md:block">Share your setup with</p>
+          <p className="text-3xl font-bold text-center md:block hidden">#FuniroFurniture</p>
+          <div className="md:flex flex-row gap-4 mb-10 hidden ">
               <img
                   src="https://s3-alpha-sig.figma.com/img/9954/4b25/1da1dc5c1c4cd5091a6369784c3b3366?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g9NdUW~3JqKr24ZV4YqqUwIVj~m6bCKfcxhiq3PJPcyTYRKF14D9UzEY2fMZcre7snWWcSwrLH8ITOyZ3YWZgquZJsr-IWVzgNve727eXrpp8ozwFKVKjDUcl1A7oBJqK~kN8hHO9gU40gbbTyHncXDi0L56NtiguT4h3FIfKwD8AG3bbfHhmKyHR-yJeRk0nuqOO1inVEsp9xIhY~tzOnORKHo2Ung~v6W~knV5shgptGKoI42CE5JdcomDX4xsx0O2t1W9wn28Ez3FyGocZ0Jf7lBlL7uYjp4PxKPO7nIrIE~~sTtK1ozw4UYIqTuXfWXRrrNLf6HRRxUr4rtbVw__"
                   alt="img" className="w-[300px] h-[500px]"/>

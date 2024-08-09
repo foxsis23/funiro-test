@@ -4,7 +4,7 @@ import {Input} from "@/components/ui/input";
 
 const Footer = (props) => {
     return(
-        <div className="mt-auto w-[1440px] mx-auto flex flex-row gap-20 px-[100px] py-10">
+        <div className="mt-auto md:w-[1440px] w-full justify-center mx-auto flex md:flex-row flex-col gap-20 px-[100px] py-10">
             <div className="flex flex-col gap-4">
                 <p className="font-bold text-2xl">Funiro.</p>
                 <p className="text-sm text-slate-500 max-w-[250px]">Worldwide furniture store since 2020. We sell over
@@ -19,7 +19,7 @@ const Footer = (props) => {
                 </p>
                 <p className="text-sm text-slate-500">www.funiro.com</p>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="md:flex flex-col gap-4 hidden">
                 <p className="font-bold text-2xl">Menu</p>
                 <p className="text-sm text-slate-500 cursor-pointer">Products</p>
                 <p className="text-sm text-slate-500 cursor-pointer flex flex-row gap-2 items-center">
@@ -31,7 +31,7 @@ const Footer = (props) => {
                 <p className="text-sm text-slate-500 cursor-pointer">About us</p>
                 <p className="text-sm text-slate-500 cursor-pointer">Terms & policy</p>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="md:flex flex-col gap-4 hidden">
                 <p className="font-bold text-2xl">Account</p>
                 <p className="text-sm text-slate-500 cursor-pointer">My Account</p>
                 <p className="text-sm text-slate-500 cursor-pointer">Checkout</p>
@@ -42,8 +42,8 @@ const Footer = (props) => {
                     My catalog
                 </p>
             </div>
-            <div className="flex flex-col gap-4">
-            <p className="font-bold text-2xl">Stay Connected</p>
+            <div className="md:flex flex-col gap-4 hidden">
+                <p className="font-bold text-2xl">Stay Connected</p>
                 <p className="text-sm text-slate-500 cursor-pointer">Facebook</p>
                 <p className="text-sm text-slate-500 cursor-pointer flex flex-row gap-2 items-center">
                     Instagram
@@ -52,7 +52,7 @@ const Footer = (props) => {
                     Twitter
                 </p>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="md:flex flex-col gap-4 hidden">
                 <p className="text-2xl font-bold">Stay updated</p>
                 <div className="flex flex-row gap-1">
                     <Input placeholder="Enter your email" className="bg-slate-100 rounded-[0px] border-0" />
