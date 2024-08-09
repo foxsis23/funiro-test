@@ -64,10 +64,10 @@ export default function Home() {
                   <Carousel className="md:w-[1000px] w-[300px]" opts={{loop: true}}>
                       <CarouselContent>
                           <CarouselItem className="md:w-[600px] w-[300px] relative">
-                              <img className="h-[500px] md:w-[900px]"
+                              <img className="md:h-[500px] h-[400px] md:w-[900px]"
                                    src="https://s3-alpha-sig.figma.com/img/49fc/0429/c4613af2a4e6c1b94a0bdbbb862009b2?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jKh2S1S8fx7~5odGBZjCbzSl1wcS8IFMEU5mVZdb~3ZMUf-ndNXBVJMGRP2B-~sZvhAIn5YIwkT7PaLJx18ox9ggf364zbKgzOHgjTzZ8NYG6w-~qwjDosTkWgJ2j~GRBeeQ48ygOzRECbZnAnDaF1etsfTtWY~w86qQ8uRj6fXR8C2IJKiLULh4F9p6c5qjfeMK8zmOnoQzZz9Pti9caWslzVjK-5hNEMaDklr2luQpPdJTOo6HmsAG1GQ8AbX2ZUEcN-8JYsLsPMysweHKqDJDnjiZ6bTVOuyLs2nTc8CAClCTiuLA6ie5j-PzWmpDP21BPSsXtTg2UA-wB4a2iA__"
                                    alt=""/>
-                              <div className="absolute p-4 bottom-5 md:left-[700px] left-[100px] backdrop-blur-xl">
+                              <div className="absolute p-4 md:bottom-5 bottom-10 md:left-[700px] left-[100px] backdrop-blur-xl">
                                   <p className="text-xl font-bold">Bohauss</p>
                                   <p className="text-sm text-slate-200">Luxury big sofa 2-seat</p>
                                   <div className="flex flex-row justify-between items-center">
@@ -77,10 +77,10 @@ export default function Home() {
                               </div>
                           </CarouselItem>
                           <CarouselItem className="md:w-[600px] w-[300px] relative">
-                              <img className="h-[500px] md:w-[900px]"
+                              <img className="md:h-[500px] h-[400px] md:w-[900px]"
                                    src="https://s3-alpha-sig.figma.com/img/49fc/0429/c4613af2a4e6c1b94a0bdbbb862009b2?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jKh2S1S8fx7~5odGBZjCbzSl1wcS8IFMEU5mVZdb~3ZMUf-ndNXBVJMGRP2B-~sZvhAIn5YIwkT7PaLJx18ox9ggf364zbKgzOHgjTzZ8NYG6w-~qwjDosTkWgJ2j~GRBeeQ48ygOzRECbZnAnDaF1etsfTtWY~w86qQ8uRj6fXR8C2IJKiLULh4F9p6c5qjfeMK8zmOnoQzZz9Pti9caWslzVjK-5hNEMaDklr2luQpPdJTOo6HmsAG1GQ8AbX2ZUEcN-8JYsLsPMysweHKqDJDnjiZ6bTVOuyLs2nTc8CAClCTiuLA6ie5j-PzWmpDP21BPSsXtTg2UA-wB4a2iA__"
                                    alt=""/>
-                              <div className="absolute p-4 bottom-5 md:left-[700px] left-[100px] backdrop-blur-xl">
+                              <div className="absolute p-4 md:bottom-5 bottom-10 md:left-[700px] left-[100px] backdrop-blur-xl">
                                   <p className="text-xl font-bold">Bohauss</p>
                                   <p className="text-sm text-slate-200">Luxury big sofa 2-seat</p>
                                   <div className="flex flex-row justify-between items-center">
@@ -90,10 +90,10 @@ export default function Home() {
                               </div>
                           </CarouselItem>
                           <CarouselItem className="md:w-[600px] w-[300px] relative">
-                              <img className="h-[500px] md:w-[900px]"
+                              <img className="md:h-[500px] h-[400px] md:w-[900px]"
                                    src="https://s3-alpha-sig.figma.com/img/49fc/0429/c4613af2a4e6c1b94a0bdbbb862009b2?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jKh2S1S8fx7~5odGBZjCbzSl1wcS8IFMEU5mVZdb~3ZMUf-ndNXBVJMGRP2B-~sZvhAIn5YIwkT7PaLJx18ox9ggf364zbKgzOHgjTzZ8NYG6w-~qwjDosTkWgJ2j~GRBeeQ48ygOzRECbZnAnDaF1etsfTtWY~w86qQ8uRj6fXR8C2IJKiLULh4F9p6c5qjfeMK8zmOnoQzZz9Pti9caWslzVjK-5hNEMaDklr2luQpPdJTOo6HmsAG1GQ8AbX2ZUEcN-8JYsLsPMysweHKqDJDnjiZ6bTVOuyLs2nTc8CAClCTiuLA6ie5j-PzWmpDP21BPSsXtTg2UA-wB4a2iA__"
                                    alt=""/>
-                              <div className="absolute p-4 bottom-5 md:left-[700px] left-[100px] backdrop-blur-xl">
+                              <div className="absolute p-4 md:bottom-5 bottom-10 md:left-[700px] left-[100px] backdrop-blur-xl">
                                   <p className="text-xl font-bold">Bohauss</p>
                                   <p className="text-sm text-slate-200">Luxury big sofa 2-seat</p>
                                   <div className="flex flex-row justify-between items-center">
@@ -111,7 +111,7 @@ export default function Home() {
                       </div>
 
                   </Carousel>
-                  <div className="absolute p-10 bg-white md:max-w-[350px] w-[250px] flex flex-col gap-4 md:bottom-16 md:left-16 left-4 bottom-40 h-auto">
+                  <div className="absolute p-10 bg-white md:max-w-[350px] w-[250px] flex flex-col gap-4 md:bottom-16 md:left-16 left-4 bottom-32 h-auto">
                       <p className="md:text-3xl font-bold text-sm">High-Quality
                           Furniture Just
                           For You</p>
