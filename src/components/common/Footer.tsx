@@ -4,7 +4,7 @@ import {Input} from "@/components/ui/input";
 
 const Footer = (props) => {
     return(
-        <div className="mt-auto md:w-[1440px] w-full justify-center mx-auto flex md:flex-row flex-col gap-20 px-[100px] py-10">
+        <div className="md:mt-auto mt-12 md:w-[1440px] w-full justify-center mx-auto flex md:flex-row flex-col gap-20 md:px-[100px] md:py-10 items-center md:items-start">
             <div className="flex flex-col gap-4">
                 <p className="font-bold text-2xl">Funiro.</p>
                 <p className="text-sm text-slate-500 max-w-[250px]">Worldwide furniture store since 2020. We sell over
